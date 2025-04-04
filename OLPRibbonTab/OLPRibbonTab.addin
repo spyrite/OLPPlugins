@@ -1,0 +1,10 @@
+﻿<RevitAddIns>
+  <AddIn Type="Application">
+    <Name>OLPRibbonTab</Name>
+    <Assembly>OLPRibbonTab.dll</Assembly>
+    <FullClassName>OLPRibbonTab.Revit.App</FullClassName>
+    <ClientId>0C610301-9E55-4437-9244-2C3AE4427418</ClientId>
+    <VendorId>OLP.SPY</VendorId>
+    <VendorDescription>Pavel Smirnov, smirnov.p.y@gmail.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>
