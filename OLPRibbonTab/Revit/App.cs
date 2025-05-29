@@ -25,13 +25,13 @@ namespace OLPRibbonTab.Revit
             _app = application;
             _app.CreateRibbonTab(_tabName);
             RibbonPanelConfigs = [];
-            RibbonPanelConfigs[RibbonPanelNames.Name0] = RibbonPanelConfig.Config0(application, _tabName);
-            RibbonPanelConfigs[RibbonPanelNames.Name1] = RibbonPanelConfig.Config1(application, _tabName);
-            RibbonPanelConfigs[RibbonPanelNames.Name2] = RibbonPanelConfig.Config2(application, _tabName);
-            RibbonPanelConfigs[RibbonPanelNames.Name5] = RibbonPanelConfig.Config5(application, _tabName);
-            RibbonPanelConfigs[RibbonPanelNames.Name3] = RibbonPanelConfig.Config3(application, _tabName);
-            RibbonPanelConfigs[RibbonPanelNames.Name4] = RibbonPanelConfig.Config4(application, _tabName);
-            RibbonPanelConfigs[RibbonPanelNames.Name6] = RibbonPanelConfig.Config6(application, _tabName);
+            RibbonPanelConfigs[RibbonPanelNames.Name0] = RibbonPanelConfig.InitPanel0(application, _tabName);
+            RibbonPanelConfigs[RibbonPanelNames.Name1] = RibbonPanelConfig.InitPanel1(application, _tabName);
+            RibbonPanelConfigs[RibbonPanelNames.Name2] = RibbonPanelConfig.InitPanel2(application, _tabName);
+            RibbonPanelConfigs[RibbonPanelNames.Name5] = RibbonPanelConfig.InitPanel5(application, _tabName);
+            RibbonPanelConfigs[RibbonPanelNames.Name3] = RibbonPanelConfig.InitPanel3(application, _tabName);
+            RibbonPanelConfigs[RibbonPanelNames.Name4] = RibbonPanelConfig.InitPanel4(application, _tabName);
+            RibbonPanelConfigs[RibbonPanelNames.Name6] = RibbonPanelConfig.InitPanel6(application, _tabName);
 
             AutoparametersAutoButton = RibbonPanelConfigs[RibbonPanelNames.Name1].PushButtons[11];
             AutoparametersAutoButtonStatus = false;

@@ -88,7 +88,7 @@ namespace OLPRibbonTab.Resources {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на Виды/Листы.
+        ///   Ищет локализованную строку, похожую на Оформление.
         /// </summary>
         internal static string Name3 {
             get {

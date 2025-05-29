@@ -117,26 +117,77 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="FamilyUtils_DescriptionLong" xml:space="preserve">
+    <value />
+  </data>
+  <data name="FamilyUtils_DescriptionShort" xml:space="preserve">
+    <value>Набор утилит для работы с семействами</value>
+  </data>
   <data name="FamilyUtils_Name" xml:space="preserve">
     <value>Утилиты 
 для семейств</value>
   </data>
+  <data name="ModellingConnections_DescriptionLong" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ModellingConnections_DescriptionShort" xml:space="preserve">
+    <value>Инструменты для работы с отверстиями</value>
+  </data>
+  <data name="ModellingConnections_Name" xml:space="preserve">
+    <value>Соединения</value>
+  </data>
+  <data name="ModellingVoids_DescriptionLong" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ModellingVoids_DescriptionShort" xml:space="preserve">
+    <value>Инструменты для работы с отверстиями</value>
+  </data>
+  <data name="ModellingVoids_Name" xml:space="preserve">
+    <value>Отверстия</value>
+  </data>
+  <data name="ParametersAuto_DescriptionLong" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ParametersAuto_DescriptionShort" xml:space="preserve">
+    <value>Функции "автопараметров" ГК Олимпроект</value>
+  </data>
   <data name="ParametersAuto_Name" xml:space="preserve">
     <value>Автопараметры</value>
+  </data>
+  <data name="ParametersFill_DescriptionLong" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ParametersFill_DescriptionShort" xml:space="preserve">
+    <value>Набор инструментов для заполнения параметров</value>
   </data>
   <data name="ParametersFill_Name" xml:space="preserve">
     <value>Заполнить</value>
   </data>
+  <data name="SchedulesUtils_DescriptionLong" xml:space="preserve">
+    <value />
+  </data>
+  <data name="SchedulesUtils_DescriptionShort" xml:space="preserve">
+    <value>Набор утилит для работы со спецификациями</value>
+  </data>
   <data name="SchedulesUtils_Name" xml:space="preserve">
-    <value>Утилиты 
-для спец-ий</value>
+    <value>Спец-ии</value>
+  </data>
+  <data name="SheetsUtils_DescriptionLong" xml:space="preserve">
+    <value />
+  </data>
+  <data name="SheetsUtils_DescriptionShort" xml:space="preserve">
+    <value>Набор утилит для работы с листами</value>
   </data>
   <data name="SheetsUtils_Name" xml:space="preserve">
-    <value>Утилиты
-для листов</value>
+    <value>Листы</value>
+  </data>
+  <data name="ViewsUtils_DescriptionLong" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ViewsUtils_DescriptionShort" xml:space="preserve">
+    <value>Набор утилит для работы с видами (кроме спецификаций)</value>
   </data>
   <data name="ViewsUtils_Name" xml:space="preserve">
-    <value>Утилиты
-для видов</value>
+    <value>Виды</value>
   </data>
 </root>

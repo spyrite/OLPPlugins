@@ -118,10 +118,11 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="ParametersAutoOLPAuto_Name" xml:space="preserve">
-    <value>Фоновый режим</value>
+    <value>Автопараметры
+(фоновый режим)</value>
   </data>
   <data name="ParametersAutoOLPManual_Name" xml:space="preserve">
-    <value>Ручной режим</value>
+    <value>Авто. ручн.</value>
   </data>
   <data name="ParametersCustomer_Name" xml:space="preserve">
     <value>Параметры заказчика</value>
@@ -136,7 +137,8 @@
     <value>Параметр "Номер секции"</value>
   </data>
   <data name="ParametersFamily_Name" xml:space="preserve">
-    <value>Обработка типов, параметров</value>
+    <value>Обработка типов,
+параметров</value>
   </data>
   <data name="ManageMaterials_Name" xml:space="preserve">
     <value>Материалы</value>
@@ -147,7 +149,7 @@
   <data name="ManageTask2_Name" xml:space="preserve">
     <value>Task v2</value>
   </data>
-  <data name="ManageBrowseViews" xml:space="preserve">
+  <data name="ManageBrowseViews_Name" xml:space="preserve">
     <value>Браузер видов</value>
   </data>
   <data name="CheckModel_Name" xml:space="preserve">
@@ -167,9 +169,6 @@ RVT/DWG</value>
   <data name="ImportDWG_Name" xml:space="preserve">
     <value>Импорт
 DWG</value>
-  </data>
-  <data name="ExportPrint_Name" xml:space="preserve">
-    <value>Печать</value>
   </data>
   <data name="ExportXLS_Name" xml:space="preserve">
     <value>Экспорт Excel</value>
@@ -207,7 +206,7 @@ Manager</value>
     <value>Нумератор листов</value>
   </data>
   <data name="ViewsCreator_Name" xml:space="preserve">
-    <value>Создать виды</value>
+    <value>Создать набор видов</value>
   </data>
   <data name="ViewsRenamer_Name" xml:space="preserve">
     <value>Переименовать виды</value>
@@ -222,6 +221,233 @@ Manager</value>
     <value>Копировать в буфер видов</value>
   </data>
   <data name="ParametersCopier_Name" xml:space="preserve">
-    <value>Копировать параметры</value>
+    <value>Копировать
+параметры</value>
+  </data>
+  <data name="UserCallback_Name" xml:space="preserve">
+    <value>Обратная связь</value>
+  </data>
+  <data name="CheckCollisions_DescriptionShort" xml:space="preserve">
+    <value>Плагин для отработки коллизий из Navisworks.</value>
+  </data>
+  <data name="CheckCollisions_DescriptionLong" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CheckModel_DescriptionShort" xml:space="preserve">
+    <value>Плагин для поиска и исправления ошибок в моделях Revit. Работает с активным документом.</value>
+  </data>
+  <data name="CheckModel_DescriptionLong" xml:space="preserve">
+    <value>Рекомендуется к регулярному использованию, не реже одного раза в неделю.</value>
+  </data>
+  <data name="CheckParameters_DescriptionShort" xml:space="preserve">
+    <value>Плагин для отработки незаполненных параметров</value>
+  </data>
+  <data name="CheckParameters_DescriptionLong" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LevelRenamer_Name" xml:space="preserve">
+    <value>Переименовать
+уровни</value>
+  </data>
+  <data name="ExportPrint_DescriptionLong" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ExportPrint_Name" xml:space="preserve">
+    <value>Печать</value>
+  </data>
+  <data name="ExportPrint_DescriptionShort" xml:space="preserve">
+    <value>Выполняет пакетную печать DWG и PDF по выбранным листам в диспетчере проекта.</value>
+  </data>
+  <data name="ExportXLS_DescriptionShort" xml:space="preserve">
+    <value>Производит экспорт спецификаций в формат Excel.</value>
+  </data>
+  <data name="ExportXLS_DescriptionLong" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ImportDWG_DescriptionShort" xml:space="preserve">
+    <value>Создает семейство "Элемент узла" и выполняет импорт DWG в созданное семейство.</value>
+  </data>
+  <data name="ImportDWG_DescriptionLong" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LevelRenamer_DescriptionShort" xml:space="preserve">
+    <value>Вызывает немодальное окно для возможности переименовать выбранные уровни в активном документе.</value>
+  </data>
+  <data name="LevelRenamer_DescriptionLong" xml:space="preserve">
+    <value>Также может обновить численные значения отметок в именах выбранных уровней (при отсутствии выбора - обновит отметки в именах всех уровней в активном документе).</value>
+  </data>
+  <data name="ManageBrowseViews_DescriptionShort" xml:space="preserve">
+    <value>Плагин для удобного просмотра открытых видов и взаимодействия с ними</value>
+  </data>
+  <data name="ManageBrowseViews_DescriptionLong" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ManageFamilies_DescriptionShort" xml:space="preserve">
+    <value>Библиотека семейств ГК Олимпроект.</value>
+  </data>
+  <data name="ManageFamilies_DescriptionLong" xml:space="preserve">
+    <value>Подгружает семейства в активный документ.</value>
+  </data>
+  <data name="ManageMaterials_DescriptionShort" xml:space="preserve">
+    <value>Менеджер-редактор материалов в активном документе. Позволяет добавлять новые или редактировать существующие материалы.</value>
+  </data>
+  <data name="ManageMaterials_DescriptionLong" xml:space="preserve">
+    <value>Является альтернативой встроенному диспетчеру материалов.</value>
+  </data>
+  <data name="ManageTask1_DescriptionShort" xml:space="preserve">
+    <value>Плагин для обмена заданиями на отверстия между разделами ОИС/ОАП/ОСК (новый плагин).</value>
+  </data>
+  <data name="ManageTask1_DescriptionLong" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ManageTask2_DescriptionShort" xml:space="preserve">
+    <value>Плагин для обмена заданиями на отверстия между разделами ОИС/ОАП/ОСК (старый плагин).</value>
+  </data>
+  <data name="ManageTask2_DescriptionLong" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ModellingAutoJoin_DescriptionShort" xml:space="preserve">
+    <value>Объединяет геометрию выбранных элементов.</value>
+  </data>
+  <data name="ModellingAutoJoin_DescriptionLong" xml:space="preserve">
+    <value>Поддерживаемые категории: плиты, стены, каркас несущий, фундаменты, колонны.</value>
+  </data>
+  <data name="ModellingConnectWallBeam_DescriptionShort" xml:space="preserve">
+    <value>Разрешает/отменяет соединения на концах балок/стен.</value>
+  </data>
+  <data name="ModellingConnectWallBeam_DescriptionLong" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ModellingCutByVoids_DescriptionShort" xml:space="preserve">
+    <value>Прорезает  отверстия по выбранным "боксам".</value>
+  </data>
+  <data name="ModellingCutByVoids_DescriptionLong" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ModellingMasonaryOpenings_DescriptionShort" xml:space="preserve">
+    <value>Создает отверстия в кирпичной кладке (например, в кирпичных перегородках) по "боксам".</value>
+  </data>
+  <data name="ModellingMasonaryOpenings_DescriptionLong" xml:space="preserve">
+    <value>Работает только при подгруженном семействе "ADSK_Бокс-стена"с типоразмером "Отв.ВИС". Имена семейства и типоразмера в активном документе должно строго соответствовать указанным.</value>
+  </data>
+  <data name="ParametersAutoOLPAuto_DescriptionShort" xml:space="preserve">
+    <value>Заполняет основные (Этаж, Секция, Корпус и т.д.) и служебные параметры в фоновом режиме (автоматически).</value>
+  </data>
+  <data name="ParametersAutoOLPAuto_DescriptionLong" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ParametersAutoOLPManual_DescriptionShort" xml:space="preserve">
+    <value>Заполняет основные (Этаж, Секция, Корпус и т.д.) и служебные параметры в ручном режиме (по вызову данной команды).</value>
+  </data>
+  <data name="ParametersAutoOLPManual_DescriptionLong" xml:space="preserve">
+    <value>Работает по выбранным элементам. При отсутствии выбора обрабатывает все элементы на активном виде. Поддерживаемые параметры: OLP_Шифр модели, OLP_Рабочий набор, OLP_СемействоТипоразмер</value>
+  </data>
+  <data name="ParametersCopier_DescriptionShort" xml:space="preserve">
+    <value>Копирует параметры из выбранного семейства в редактируемое семейство.</value>
+  </data>
+  <data name="ParametersCopier_DescriptionLong" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ParametersCustomer_DescriptionShort" xml:space="preserve">
+    <value>Плагин служит для перезаписи значений из одного параметра в другой.</value>
+  </data>
+  <data name="ParametersCustomer_DescriptionLong" xml:space="preserve">
+    <value>Используется для согласования значений общих параметров ГК «Олимпроект» со значениями общих параметров, требуемых заказчиком.</value>
+  </data>
+  <data name="ParametersElevation_DescriptionShort" xml:space="preserve">
+    <value>Заполняет параметры “ADSK_Отверстие от нуля” и “ADSK_Отверстие от этажа” у семейств, имя которых содержит “ADSK_Бокс-Стена” или “ADSK_Бокс_Стена”.</value>
+  </data>
+  <data name="ParametersElevation_DescriptionLong" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ParametersFamily_DescriptionShort" xml:space="preserve">
+    <value>Менеджер-редактор доступных параметров редактируемого семейства. Может переименовать, удалять, группировать,менять порядок параметров.</value>
+  </data>
+  <data name="ParametersFamily_DescriptionLong" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ParametersNSection_DescriptionShort" xml:space="preserve">
+    <value>Плагин служит для параметризации элементов по области видимости.</value>
+  </data>
+  <data name="ParametersNSection_DescriptionLong" xml:space="preserve">
+    <value>Всем элементам, которые будут попадать в область видимости – заданному параметру присвоится значение (не обязательно номер секции).</value>
+  </data>
+  <data name="SchedulesColumnWidth_DescriptionShort" xml:space="preserve">
+    <value>Позволяет настроить ширину столбцов в спецификации как с листа, так и из самой спецификации.</value>
+  </data>
+  <data name="SchedulesColumnWidth_DescriptionLong" xml:space="preserve">
+    <value />
+  </data>
+  <data name="SchedulesFilterReplacer_DescriptionShort" xml:space="preserve">
+    <value>Может пакетно менять значения фильтров в спецификациях, не открывая настройки каждой. </value>
+  </data>
+  <data name="SchedulesFilterReplacer_DescriptionLong" xml:space="preserve">
+    <value />
+  </data>
+  <data name="SheetsAddRevision_DescriptionShort" xml:space="preserve">
+    <value>Устанавливает выбранное изменение на указанных листах и создать новое изменение. </value>
+  </data>
+  <data name="SheetsAddRevision_DescriptionLong" xml:space="preserve">
+    <value />
+  </data>
+  <data name="SheetsCopier_DescriptionShort" xml:space="preserve">
+    <value>Копирует выбранные в диспетчере листы со всем содержимым.</value>
+  </data>
+  <data name="SheetsCopier_DescriptionLong" xml:space="preserve">
+    <value />
+  </data>
+  <data name="SheetsEnumerator_DescriptionShort" xml:space="preserve">
+    <value>Плагин предназначен для перенумерации листов проекта.</value>
+  </data>
+  <data name="SheetsEnumerator_DescriptionLong" xml:space="preserve">
+    <value />
+  </data>
+  <data name="UserCallback_DescriptionShort" xml:space="preserve">
+    <value>Вызывает диалоговое окно для отправки разработчикам комментариев, пожеланий и отзывов по работе плагинов.</value>
+  </data>
+  <data name="UserCallback_DescriptionLong" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ViewsCopy_DescriptionShort" xml:space="preserve">
+    <value>Копирует выбранные из размещенных на листе виды по принципу "буфера обмена".</value>
+  </data>
+  <data name="ViewsCopy_DescriptionLong" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ViewsCreator_DescriptionShort" xml:space="preserve">
+    <value>Создает набор выбранных видов или листов в диспетчере проекта для последующей групповой публикации</value>
+  </data>
+  <data name="ViewsCreator_DescriptionLong" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ViewsInsertSectionViewport_DescriptionShort" xml:space="preserve">
+    <value>Позволяет добавить вид разреза на активный лист по выбору обозначения разреза на другом виде, размещенном на том же самом листе.</value>
+  </data>
+  <data name="ViewsInsertSectionViewport_DescriptionLong" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ViewsMultiCopier_DescriptionShort" xml:space="preserve">
+    <value>Копирует виды и спецификации, в том числе и по выбору размещенных на листе.</value>
+  </data>
+  <data name="ViewsMultiCopier_DescriptionLong" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ViewsPaste_DescriptionShort" xml:space="preserve">
+    <value>Вставляет скопированные виды с помощью команды "Копировать в буфер видов" на активный лист.</value>
+  </data>
+  <data name="ViewsPaste_DescriptionLong" xml:space="preserve">
+    <value>При выполнении создает копии видов, с указанием в имени вида суффикса "копия_N_имя пользователя".</value>
+  </data>
+  <data name="ViewsRenamer_DescriptionShort" xml:space="preserve">
+    <value>Вызывает диалоговое окно для переименования видов по введенным данным.</value>
+  </data>
+  <data name="ViewsRenamer_DescriptionLong" xml:space="preserve">
+    <value>Переименовывает, добавляет суффиксы или префиксы, ищет и заменяет часть текста выбранным в диспетчере проекта видам.</value>
+  </data>
+  <data name="ImportLinks_DescriptionShort" xml:space="preserve">
+    <value>Плагин для подгрузки связанных моделей RVT и DWG в активный документ.</value>
+  </data>
+  <data name="ImportLinks_DescriptionLong" xml:space="preserve">
+    <value />
   </data>
 </root>

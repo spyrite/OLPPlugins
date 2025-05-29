@@ -61,11 +61,47 @@ namespace OLPRibbonTab.Resources {
         }
         
         /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        internal static string CheckCollisions_DescriptionLong {
+            get {
+                return ResourceManager.GetString("CheckCollisions_DescriptionLong", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Плагин для отработки коллизий из Navisworks..
+        /// </summary>
+        internal static string CheckCollisions_DescriptionShort {
+            get {
+                return ResourceManager.GetString("CheckCollisions_DescriptionShort", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Ищет локализованную строку, похожую на Коллизии.
         /// </summary>
         internal static string CheckCollisions_Name {
             get {
                 return ResourceManager.GetString("CheckCollisions_Name", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Рекомендуется к регулярному использованию, не реже одного раза в неделю..
+        /// </summary>
+        internal static string CheckModel_DescriptionLong {
+            get {
+                return ResourceManager.GetString("CheckModel_DescriptionLong", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Плагин для поиска и исправления ошибок в моделях Revit. Работает с активным документом..
+        /// </summary>
+        internal static string CheckModel_DescriptionShort {
+            get {
+                return ResourceManager.GetString("CheckModel_DescriptionShort", resourceCulture);
             }
         }
         
@@ -80,11 +116,47 @@ namespace OLPRibbonTab.Resources {
         }
         
         /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        internal static string CheckParameters_DescriptionLong {
+            get {
+                return ResourceManager.GetString("CheckParameters_DescriptionLong", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Плагин для отработки незаполненных параметров.
+        /// </summary>
+        internal static string CheckParameters_DescriptionShort {
+            get {
+                return ResourceManager.GetString("CheckParameters_DescriptionShort", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Ищет локализованную строку, похожую на Параметры.
         /// </summary>
         internal static string CheckParameters_Name {
             get {
                 return ResourceManager.GetString("CheckParameters_Name", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        internal static string ExportPrint_DescriptionLong {
+            get {
+                return ResourceManager.GetString("ExportPrint_DescriptionLong", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Выполняет пакетную печать DWG и PDF по выбранным листам в диспетчере проекта..
+        /// </summary>
+        internal static string ExportPrint_DescriptionShort {
+            get {
+                return ResourceManager.GetString("ExportPrint_DescriptionShort", resourceCulture);
             }
         }
         
@@ -98,11 +170,47 @@ namespace OLPRibbonTab.Resources {
         }
         
         /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        internal static string ExportXLS_DescriptionLong {
+            get {
+                return ResourceManager.GetString("ExportXLS_DescriptionLong", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Производит экспорт спецификаций в формат Excel..
+        /// </summary>
+        internal static string ExportXLS_DescriptionShort {
+            get {
+                return ResourceManager.GetString("ExportXLS_DescriptionShort", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Ищет локализованную строку, похожую на Экспорт Excel.
         /// </summary>
         internal static string ExportXLS_Name {
             get {
                 return ResourceManager.GetString("ExportXLS_Name", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        internal static string ImportDWG_DescriptionLong {
+            get {
+                return ResourceManager.GetString("ImportDWG_DescriptionLong", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Создает семейство &quot;Элемент узла&quot; и выполняет импорт DWG в созданное семейство..
+        /// </summary>
+        internal static string ImportDWG_DescriptionShort {
+            get {
+                return ResourceManager.GetString("ImportDWG_DescriptionShort", resourceCulture);
             }
         }
         
@@ -117,6 +225,24 @@ namespace OLPRibbonTab.Resources {
         }
         
         /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        internal static string ImportLinks_DescriptionLong {
+            get {
+                return ResourceManager.GetString("ImportLinks_DescriptionLong", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Плагин для подгрузки связанных моделей RVT и DWG в активный документ..
+        /// </summary>
+        internal static string ImportLinks_DescriptionShort {
+            get {
+                return ResourceManager.GetString("ImportLinks_DescriptionShort", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Ищет локализованную строку, похожую на Связи
         ///RVT/DWG.
         /// </summary>
@@ -127,11 +253,75 @@ namespace OLPRibbonTab.Resources {
         }
         
         /// <summary>
+        ///   Ищет локализованную строку, похожую на Также может обновить численные значения отметок в именах выбранных уровней (при отсутствии выбора - обновит отметки в именах всех уровней в активном документе)..
+        /// </summary>
+        internal static string LevelRenamer_DescriptionLong {
+            get {
+                return ResourceManager.GetString("LevelRenamer_DescriptionLong", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Вызывает немодальное окно для возможности переименовать выбранные уровни в активном документе..
+        /// </summary>
+        internal static string LevelRenamer_DescriptionShort {
+            get {
+                return ResourceManager.GetString("LevelRenamer_DescriptionShort", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Переименовать
+        ///уровни.
+        /// </summary>
+        internal static string LevelRenamer_Name {
+            get {
+                return ResourceManager.GetString("LevelRenamer_Name", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        internal static string ManageBrowseViews_DescriptionLong {
+            get {
+                return ResourceManager.GetString("ManageBrowseViews_DescriptionLong", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Плагин для удобного просмотра открытых видов и взаимодействия с ними.
+        /// </summary>
+        internal static string ManageBrowseViews_DescriptionShort {
+            get {
+                return ResourceManager.GetString("ManageBrowseViews_DescriptionShort", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Ищет локализованную строку, похожую на Браузер видов.
         /// </summary>
-        internal static string ManageBrowseViews {
+        internal static string ManageBrowseViews_Name {
             get {
-                return ResourceManager.GetString("ManageBrowseViews", resourceCulture);
+                return ResourceManager.GetString("ManageBrowseViews_Name", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Подгружает семейства в активный документ..
+        /// </summary>
+        internal static string ManageFamilies_DescriptionLong {
+            get {
+                return ResourceManager.GetString("ManageFamilies_DescriptionLong", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Библиотека семейств ГК Олимпроект..
+        /// </summary>
+        internal static string ManageFamilies_DescriptionShort {
+            get {
+                return ResourceManager.GetString("ManageFamilies_DescriptionShort", resourceCulture);
             }
         }
         
@@ -146,11 +336,47 @@ namespace OLPRibbonTab.Resources {
         }
         
         /// <summary>
+        ///   Ищет локализованную строку, похожую на Является альтернативой встроенному диспетчеру материалов..
+        /// </summary>
+        internal static string ManageMaterials_DescriptionLong {
+            get {
+                return ResourceManager.GetString("ManageMaterials_DescriptionLong", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Менеджер-редактор материалов в активном документе. Позволяет добавлять новые или редактировать существующие материалы..
+        /// </summary>
+        internal static string ManageMaterials_DescriptionShort {
+            get {
+                return ResourceManager.GetString("ManageMaterials_DescriptionShort", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Ищет локализованную строку, похожую на Материалы.
         /// </summary>
         internal static string ManageMaterials_Name {
             get {
                 return ResourceManager.GetString("ManageMaterials_Name", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        internal static string ManageTask1_DescriptionLong {
+            get {
+                return ResourceManager.GetString("ManageTask1_DescriptionLong", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Плагин для обмена заданиями на отверстия между разделами ОИС/ОАП/ОСК (новый плагин)..
+        /// </summary>
+        internal static string ManageTask1_DescriptionShort {
+            get {
+                return ResourceManager.GetString("ManageTask1_DescriptionShort", resourceCulture);
             }
         }
         
@@ -164,11 +390,47 @@ namespace OLPRibbonTab.Resources {
         }
         
         /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        internal static string ManageTask2_DescriptionLong {
+            get {
+                return ResourceManager.GetString("ManageTask2_DescriptionLong", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Плагин для обмена заданиями на отверстия между разделами ОИС/ОАП/ОСК (старый плагин)..
+        /// </summary>
+        internal static string ManageTask2_DescriptionShort {
+            get {
+                return ResourceManager.GetString("ManageTask2_DescriptionShort", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Ищет локализованную строку, похожую на Task v2.
         /// </summary>
         internal static string ManageTask2_Name {
             get {
                 return ResourceManager.GetString("ManageTask2_Name", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Поддерживаемые категории: плиты, стены, каркас несущий, фундаменты, колонны..
+        /// </summary>
+        internal static string ModellingAutoJoin_DescriptionLong {
+            get {
+                return ResourceManager.GetString("ModellingAutoJoin_DescriptionLong", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Объединяет геометрию выбранных элементов..
+        /// </summary>
+        internal static string ModellingAutoJoin_DescriptionShort {
+            get {
+                return ResourceManager.GetString("ModellingAutoJoin_DescriptionShort", resourceCulture);
             }
         }
         
@@ -182,6 +444,24 @@ namespace OLPRibbonTab.Resources {
         }
         
         /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        internal static string ModellingConnectWallBeam_DescriptionLong {
+            get {
+                return ResourceManager.GetString("ModellingConnectWallBeam_DescriptionLong", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Разрешает/отменяет соединения на концах балок/стен..
+        /// </summary>
+        internal static string ModellingConnectWallBeam_DescriptionShort {
+            get {
+                return ResourceManager.GetString("ModellingConnectWallBeam_DescriptionShort", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Ищет локализованную строку, похожую на Соединения стен/балок.
         /// </summary>
         internal static string ModellingConnectWallBeam_Name {
@@ -191,11 +471,47 @@ namespace OLPRibbonTab.Resources {
         }
         
         /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        internal static string ModellingCutByVoids_DescriptionLong {
+            get {
+                return ResourceManager.GetString("ModellingCutByVoids_DescriptionLong", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Прорезает  отверстия по выбранным &quot;боксам&quot;..
+        /// </summary>
+        internal static string ModellingCutByVoids_DescriptionShort {
+            get {
+                return ResourceManager.GetString("ModellingCutByVoids_DescriptionShort", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Ищет локализованную строку, похожую на Прорезать полости.
         /// </summary>
         internal static string ModellingCutByVoids_Name {
             get {
                 return ResourceManager.GetString("ModellingCutByVoids_Name", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Работает только при подгруженном семействе &quot;ADSK_Бокс-стена&quot;с типоразмером &quot;Отв.ВИС&quot;. Имена семейства и типоразмера в активном документе должно строго соответствовать указанным..
+        /// </summary>
+        internal static string ModellingMasonaryOpenings_DescriptionLong {
+            get {
+                return ResourceManager.GetString("ModellingMasonaryOpenings_DescriptionLong", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Создает отверстия в кирпичной кладке (например, в кирпичных перегородках) по &quot;боксам&quot;..
+        /// </summary>
+        internal static string ModellingMasonaryOpenings_DescriptionShort {
+            get {
+                return ResourceManager.GetString("ModellingMasonaryOpenings_DescriptionShort", resourceCulture);
             }
         }
         
@@ -210,7 +526,26 @@ namespace OLPRibbonTab.Resources {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на Фоновый режим.
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        internal static string ParametersAutoOLPAuto_DescriptionLong {
+            get {
+                return ResourceManager.GetString("ParametersAutoOLPAuto_DescriptionLong", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Заполняет основные (Этаж, Секция, Корпус и т.д.) и служебные параметры в фоновом режиме (автоматически)..
+        /// </summary>
+        internal static string ParametersAutoOLPAuto_DescriptionShort {
+            get {
+                return ResourceManager.GetString("ParametersAutoOLPAuto_DescriptionShort", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Автопараметры
+        ///(фоновый режим).
         /// </summary>
         internal static string ParametersAutoOLPAuto_Name {
             get {
@@ -219,7 +554,25 @@ namespace OLPRibbonTab.Resources {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на Ручной режим.
+        ///   Ищет локализованную строку, похожую на Работает по выбранным элементам. При отсутствии выбора обрабатывает все элементы на активном виде. Поддерживаемые параметры: OLP_Шифр модели, OLP_Рабочий набор, OLP_СемействоТипоразмер.
+        /// </summary>
+        internal static string ParametersAutoOLPManual_DescriptionLong {
+            get {
+                return ResourceManager.GetString("ParametersAutoOLPManual_DescriptionLong", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Заполняет основные (Этаж, Секция, Корпус и т.д.) и служебные параметры в ручном режиме (по вызову данной команды)..
+        /// </summary>
+        internal static string ParametersAutoOLPManual_DescriptionShort {
+            get {
+                return ResourceManager.GetString("ParametersAutoOLPManual_DescriptionShort", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Авто. ручн..
         /// </summary>
         internal static string ParametersAutoOLPManual_Name {
             get {
@@ -228,11 +581,48 @@ namespace OLPRibbonTab.Resources {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на Копировать параметры.
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        internal static string ParametersCopier_DescriptionLong {
+            get {
+                return ResourceManager.GetString("ParametersCopier_DescriptionLong", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Копирует параметры из выбранного семейства в редактируемое семейство..
+        /// </summary>
+        internal static string ParametersCopier_DescriptionShort {
+            get {
+                return ResourceManager.GetString("ParametersCopier_DescriptionShort", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Копировать
+        ///параметры.
         /// </summary>
         internal static string ParametersCopier_Name {
             get {
                 return ResourceManager.GetString("ParametersCopier_Name", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Используется для согласования значений общих параметров ГК «Олимпроект» со значениями общих параметров, требуемых заказчиком..
+        /// </summary>
+        internal static string ParametersCustomer_DescriptionLong {
+            get {
+                return ResourceManager.GetString("ParametersCustomer_DescriptionLong", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Плагин служит для перезаписи значений из одного параметра в другой..
+        /// </summary>
+        internal static string ParametersCustomer_DescriptionShort {
+            get {
+                return ResourceManager.GetString("ParametersCustomer_DescriptionShort", resourceCulture);
             }
         }
         
@@ -246,6 +636,24 @@ namespace OLPRibbonTab.Resources {
         }
         
         /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        internal static string ParametersElevation_DescriptionLong {
+            get {
+                return ResourceManager.GetString("ParametersElevation_DescriptionLong", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Заполняет параметры “ADSK_Отверстие от нуля” и “ADSK_Отверстие от этажа” у семейств, имя которых содержит “ADSK_Бокс-Стена” или “ADSK_Бокс_Стена”..
+        /// </summary>
+        internal static string ParametersElevation_DescriptionShort {
+            get {
+                return ResourceManager.GetString("ParametersElevation_DescriptionShort", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Ищет локализованную строку, похожую на Параметры отметок.
         /// </summary>
         internal static string ParametersElevation_Name {
@@ -255,11 +663,48 @@ namespace OLPRibbonTab.Resources {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на Обработка типов, параметров.
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        internal static string ParametersFamily_DescriptionLong {
+            get {
+                return ResourceManager.GetString("ParametersFamily_DescriptionLong", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Менеджер-редактор доступных параметров редактируемого семейства. Может переименовать, удалять, группировать,менять порядок параметров..
+        /// </summary>
+        internal static string ParametersFamily_DescriptionShort {
+            get {
+                return ResourceManager.GetString("ParametersFamily_DescriptionShort", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Обработка типов,
+        ///параметров.
         /// </summary>
         internal static string ParametersFamily_Name {
             get {
                 return ResourceManager.GetString("ParametersFamily_Name", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Всем элементам, которые будут попадать в область видимости – заданному параметру присвоится значение (не обязательно номер секции)..
+        /// </summary>
+        internal static string ParametersNSection_DescriptionLong {
+            get {
+                return ResourceManager.GetString("ParametersNSection_DescriptionLong", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Плагин служит для параметризации элементов по области видимости..
+        /// </summary>
+        internal static string ParametersNSection_DescriptionShort {
+            get {
+                return ResourceManager.GetString("ParametersNSection_DescriptionShort", resourceCulture);
             }
         }
         
@@ -273,11 +718,47 @@ namespace OLPRibbonTab.Resources {
         }
         
         /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        internal static string SchedulesColumnWidth_DescriptionLong {
+            get {
+                return ResourceManager.GetString("SchedulesColumnWidth_DescriptionLong", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Позволяет настроить ширину столбцов в спецификации как с листа, так и из самой спецификации..
+        /// </summary>
+        internal static string SchedulesColumnWidth_DescriptionShort {
+            get {
+                return ResourceManager.GetString("SchedulesColumnWidth_DescriptionShort", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Ищет локализованную строку, похожую на Настроить ширину столбца.
         /// </summary>
         internal static string SchedulesColumnWidth_Name {
             get {
                 return ResourceManager.GetString("SchedulesColumnWidth_Name", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        internal static string SchedulesFilterReplacer_DescriptionLong {
+            get {
+                return ResourceManager.GetString("SchedulesFilterReplacer_DescriptionLong", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Может пакетно менять значения фильтров в спецификациях, не открывая настройки каждой. .
+        /// </summary>
+        internal static string SchedulesFilterReplacer_DescriptionShort {
+            get {
+                return ResourceManager.GetString("SchedulesFilterReplacer_DescriptionShort", resourceCulture);
             }
         }
         
@@ -291,11 +772,47 @@ namespace OLPRibbonTab.Resources {
         }
         
         /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        internal static string SheetsAddRevision_DescriptionLong {
+            get {
+                return ResourceManager.GetString("SheetsAddRevision_DescriptionLong", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Устанавливает выбранное изменение на указанных листах и создать новое изменение. .
+        /// </summary>
+        internal static string SheetsAddRevision_DescriptionShort {
+            get {
+                return ResourceManager.GetString("SheetsAddRevision_DescriptionShort", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Ищет локализованную строку, похожую на Добавить ИЗМ.
         /// </summary>
         internal static string SheetsAddRevision_Name {
             get {
                 return ResourceManager.GetString("SheetsAddRevision_Name", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        internal static string SheetsCopier_DescriptionLong {
+            get {
+                return ResourceManager.GetString("SheetsCopier_DescriptionLong", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Копирует выбранные в диспетчере листы со всем содержимым..
+        /// </summary>
+        internal static string SheetsCopier_DescriptionShort {
+            get {
+                return ResourceManager.GetString("SheetsCopier_DescriptionShort", resourceCulture);
             }
         }
         
@@ -309,11 +826,74 @@ namespace OLPRibbonTab.Resources {
         }
         
         /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        internal static string SheetsEnumerator_DescriptionLong {
+            get {
+                return ResourceManager.GetString("SheetsEnumerator_DescriptionLong", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Плагин предназначен для перенумерации листов проекта..
+        /// </summary>
+        internal static string SheetsEnumerator_DescriptionShort {
+            get {
+                return ResourceManager.GetString("SheetsEnumerator_DescriptionShort", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Ищет локализованную строку, похожую на Нумератор листов.
         /// </summary>
         internal static string SheetsEnumerator_Name {
             get {
                 return ResourceManager.GetString("SheetsEnumerator_Name", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        internal static string UserCallback_DescriptionLong {
+            get {
+                return ResourceManager.GetString("UserCallback_DescriptionLong", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Вызывает диалоговое окно для отправки разработчикам комментариев, пожеланий и отзывов по работе плагинов..
+        /// </summary>
+        internal static string UserCallback_DescriptionShort {
+            get {
+                return ResourceManager.GetString("UserCallback_DescriptionShort", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Обратная связь.
+        /// </summary>
+        internal static string UserCallback_Name {
+            get {
+                return ResourceManager.GetString("UserCallback_Name", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        internal static string ViewsCopy_DescriptionLong {
+            get {
+                return ResourceManager.GetString("ViewsCopy_DescriptionLong", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Копирует выбранные из размещенных на листе виды по принципу &quot;буфера обмена&quot;..
+        /// </summary>
+        internal static string ViewsCopy_DescriptionShort {
+            get {
+                return ResourceManager.GetString("ViewsCopy_DescriptionShort", resourceCulture);
             }
         }
         
@@ -327,11 +907,47 @@ namespace OLPRibbonTab.Resources {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на Создать виды.
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        internal static string ViewsCreator_DescriptionLong {
+            get {
+                return ResourceManager.GetString("ViewsCreator_DescriptionLong", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Создает набор выбранных видов или листов в диспетчере проекта для последующей групповой публикации.
+        /// </summary>
+        internal static string ViewsCreator_DescriptionShort {
+            get {
+                return ResourceManager.GetString("ViewsCreator_DescriptionShort", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Создать набор видов.
         /// </summary>
         internal static string ViewsCreator_Name {
             get {
                 return ResourceManager.GetString("ViewsCreator_Name", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        internal static string ViewsInsertSectionViewport_DescriptionLong {
+            get {
+                return ResourceManager.GetString("ViewsInsertSectionViewport_DescriptionLong", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Позволяет добавить вид разреза на активный лист по выбору обозначения разреза на другом виде, размещенном на том же самом листе..
+        /// </summary>
+        internal static string ViewsInsertSectionViewport_DescriptionShort {
+            get {
+                return ResourceManager.GetString("ViewsInsertSectionViewport_DescriptionShort", resourceCulture);
             }
         }
         
@@ -345,6 +961,24 @@ namespace OLPRibbonTab.Resources {
         }
         
         /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        internal static string ViewsMultiCopier_DescriptionLong {
+            get {
+                return ResourceManager.GetString("ViewsMultiCopier_DescriptionLong", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Копирует виды и спецификации, в том числе и по выбору размещенных на листе..
+        /// </summary>
+        internal static string ViewsMultiCopier_DescriptionShort {
+            get {
+                return ResourceManager.GetString("ViewsMultiCopier_DescriptionShort", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Ищет локализованную строку, похожую на Копировать виды.
         /// </summary>
         internal static string ViewsMultiCopier_Name {
@@ -354,11 +988,47 @@ namespace OLPRibbonTab.Resources {
         }
         
         /// <summary>
+        ///   Ищет локализованную строку, похожую на При выполнении создает копии видов, с указанием в имени вида суффикса &quot;копия_N_имя пользователя&quot;..
+        /// </summary>
+        internal static string ViewsPaste_DescriptionLong {
+            get {
+                return ResourceManager.GetString("ViewsPaste_DescriptionLong", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Вставляет скопированные виды с помощью команды &quot;Копировать в буфер видов&quot; на активный лист..
+        /// </summary>
+        internal static string ViewsPaste_DescriptionShort {
+            get {
+                return ResourceManager.GetString("ViewsPaste_DescriptionShort", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Ищет локализованную строку, похожую на Вставить из буфера видов.
         /// </summary>
         internal static string ViewsPaste_Name {
             get {
                 return ResourceManager.GetString("ViewsPaste_Name", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Переименовывает, добавляет суффиксы или префиксы, ищет и заменяет часть текста выбранным в диспетчере проекта видам..
+        /// </summary>
+        internal static string ViewsRenamer_DescriptionLong {
+            get {
+                return ResourceManager.GetString("ViewsRenamer_DescriptionLong", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Вызывает диалоговое окно для переименования видов по введенным данным..
+        /// </summary>
+        internal static string ViewsRenamer_DescriptionShort {
+            get {
+                return ResourceManager.GetString("ViewsRenamer_DescriptionShort", resourceCulture);
             }
         }
         

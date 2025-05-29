@@ -15,11 +15,10 @@ namespace OLPRibbonTab.Revit
                 //Семейство
                 case true:
                     //BIM
-                    App.RibbonPanelConfigs[RibbonPanelNames.Name0].RibbonPanel.Visible = true;
-                    foreach (PulldownButton pdb in App.RibbonPanelConfigs[RibbonPanelNames.Name0].PulldownButtons.Values)
-                        pdb.Visible = true;
-                    foreach (PushButton pb in App.RibbonPanelConfigs[RibbonPanelNames.Name0].PushButtons.Values)
-                        pb.Visible = true;
+                    App.RibbonPanelConfigs[RibbonPanelNames.Name0].PushButtons[1].Visible = true;
+                    App.RibbonPanelConfigs[RibbonPanelNames.Name0].PushButtons[2].Visible = true;
+                    App.RibbonPanelConfigs[RibbonPanelNames.Name0].PushButtons[3].Visible = false;
+                    App.RibbonPanelConfigs[RibbonPanelNames.Name0].PushButtons[4].Visible = false;
 
                     //Параметры
                     foreach (PushButton pb in App.RibbonPanelConfigs[RibbonPanelNames.Name1].PushButtons.Values)
@@ -64,11 +63,10 @@ namespace OLPRibbonTab.Revit
                 //Проект
                 case false:
                     //BIM
-                    foreach (PushButton pb in App.RibbonPanelConfigs[RibbonPanelNames.Name0].PushButtons.Values)
-                        pb.Visible = false;
-                    foreach (PulldownButton pdb in App.RibbonPanelConfigs[RibbonPanelNames.Name0].PulldownButtons.Values)
-                        pdb.Visible = false;
-                    App.RibbonPanelConfigs[RibbonPanelNames.Name0].RibbonPanel.Visible = false;
+                    App.RibbonPanelConfigs[RibbonPanelNames.Name0].PushButtons[1].Visible = false;
+                    App.RibbonPanelConfigs[RibbonPanelNames.Name0].PushButtons[2].Visible = false;
+                    App.RibbonPanelConfigs[RibbonPanelNames.Name0].PushButtons[3].Visible = true;
+                    App.RibbonPanelConfigs[RibbonPanelNames.Name0].PushButtons[4].Visible = true;
 
                     //Параметры
                     App.RibbonPanelConfigs[RibbonPanelNames.Name1].RibbonPanel.Visible = true;

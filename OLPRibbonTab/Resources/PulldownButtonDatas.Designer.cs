@@ -61,12 +61,102 @@ namespace OLPRibbonTab.Resources {
         }
         
         /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        internal static string FamilyUtils_DescriptionLong {
+            get {
+                return ResourceManager.GetString("FamilyUtils_DescriptionLong", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Набор утилит для работы с семействами.
+        /// </summary>
+        internal static string FamilyUtils_DescriptionShort {
+            get {
+                return ResourceManager.GetString("FamilyUtils_DescriptionShort", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Ищет локализованную строку, похожую на Утилиты 
         ///для семейств.
         /// </summary>
         internal static string FamilyUtils_Name {
             get {
                 return ResourceManager.GetString("FamilyUtils_Name", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        internal static string ModellingConnections_DescriptionLong {
+            get {
+                return ResourceManager.GetString("ModellingConnections_DescriptionLong", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Инструменты для работы с отверстиями.
+        /// </summary>
+        internal static string ModellingConnections_DescriptionShort {
+            get {
+                return ResourceManager.GetString("ModellingConnections_DescriptionShort", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Соединения.
+        /// </summary>
+        internal static string ModellingConnections_Name {
+            get {
+                return ResourceManager.GetString("ModellingConnections_Name", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        internal static string ModellingVoids_DescriptionLong {
+            get {
+                return ResourceManager.GetString("ModellingVoids_DescriptionLong", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Инструменты для работы с отверстиями.
+        /// </summary>
+        internal static string ModellingVoids_DescriptionShort {
+            get {
+                return ResourceManager.GetString("ModellingVoids_DescriptionShort", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Отверстия.
+        /// </summary>
+        internal static string ModellingVoids_Name {
+            get {
+                return ResourceManager.GetString("ModellingVoids_Name", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        internal static string ParametersAuto_DescriptionLong {
+            get {
+                return ResourceManager.GetString("ParametersAuto_DescriptionLong", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Функции &quot;автопараметров&quot; ГК Олимпроект.
+        /// </summary>
+        internal static string ParametersAuto_DescriptionShort {
+            get {
+                return ResourceManager.GetString("ParametersAuto_DescriptionShort", resourceCulture);
             }
         }
         
@@ -80,6 +170,24 @@ namespace OLPRibbonTab.Resources {
         }
         
         /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        internal static string ParametersFill_DescriptionLong {
+            get {
+                return ResourceManager.GetString("ParametersFill_DescriptionLong", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Набор инструментов для заполнения параметров.
+        /// </summary>
+        internal static string ParametersFill_DescriptionShort {
+            get {
+                return ResourceManager.GetString("ParametersFill_DescriptionShort", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Ищет локализованную строку, похожую на Заполнить.
         /// </summary>
         internal static string ParametersFill_Name {
@@ -89,8 +197,25 @@ namespace OLPRibbonTab.Resources {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на Утилиты 
-        ///для спец-ий.
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        internal static string SchedulesUtils_DescriptionLong {
+            get {
+                return ResourceManager.GetString("SchedulesUtils_DescriptionLong", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Набор утилит для работы со спецификациями.
+        /// </summary>
+        internal static string SchedulesUtils_DescriptionShort {
+            get {
+                return ResourceManager.GetString("SchedulesUtils_DescriptionShort", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Спец-ии.
         /// </summary>
         internal static string SchedulesUtils_Name {
             get {
@@ -99,8 +224,25 @@ namespace OLPRibbonTab.Resources {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на Утилиты
-        ///для листов.
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        internal static string SheetsUtils_DescriptionLong {
+            get {
+                return ResourceManager.GetString("SheetsUtils_DescriptionLong", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Набор утилит для работы с листами.
+        /// </summary>
+        internal static string SheetsUtils_DescriptionShort {
+            get {
+                return ResourceManager.GetString("SheetsUtils_DescriptionShort", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Листы.
         /// </summary>
         internal static string SheetsUtils_Name {
             get {
@@ -109,8 +251,25 @@ namespace OLPRibbonTab.Resources {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на Утилиты
-        ///для видов.
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        internal static string ViewsUtils_DescriptionLong {
+            get {
+                return ResourceManager.GetString("ViewsUtils_DescriptionLong", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Набор утилит для работы с видами (кроме спецификаций).
+        /// </summary>
+        internal static string ViewsUtils_DescriptionShort {
+            get {
+                return ResourceManager.GetString("ViewsUtils_DescriptionShort", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Виды.
         /// </summary>
         internal static string ViewsUtils_Name {
             get {
