@@ -271,8 +271,8 @@ namespace OLPRibbonTab.Resources {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на Переименовать
-        ///уровни.
+        ///   Ищет локализованную строку, похожую на Имена
+        ///уровней.
         /// </summary>
         internal static string LevelRenamer_Name {
             get {
@@ -545,11 +545,21 @@ namespace OLPRibbonTab.Resources {
         
         /// <summary>
         ///   Ищет локализованную строку, похожую на Автопараметры
-        ///(фоновый режим).
+        ///(фон. выкл.).
         /// </summary>
-        internal static string ParametersAutoOLPAuto_Name {
+        internal static string ParametersAutoOLPAuto_Name_Off {
             get {
-                return ResourceManager.GetString("ParametersAutoOLPAuto_Name", resourceCulture);
+                return ResourceManager.GetString("ParametersAutoOLPAuto_Name_Off", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Автопараметры
+        ///(фон. вкл.).
+        /// </summary>
+        internal static string ParametersAutoOLPAuto_Name_On {
+            get {
+                return ResourceManager.GetString("ParametersAutoOLPAuto_Name_On", resourceCulture);
             }
         }
         
@@ -681,7 +691,7 @@ namespace OLPRibbonTab.Resources {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на Обработка типов,
+        ///   Ищет локализованную строку, похожую на Менеджер
         ///параметров.
         /// </summary>
         internal static string ParametersFamily_Name {
@@ -909,27 +919,27 @@ namespace OLPRibbonTab.Resources {
         /// <summary>
         ///   Ищет локализованную строку, похожую на .
         /// </summary>
-        internal static string ViewsCreator_DescriptionLong {
+        internal static string ViewSetCreator_DescriptionLong {
             get {
-                return ResourceManager.GetString("ViewsCreator_DescriptionLong", resourceCulture);
+                return ResourceManager.GetString("ViewSetCreator_DescriptionLong", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Ищет локализованную строку, похожую на Создает набор выбранных видов или листов в диспетчере проекта для последующей групповой публикации.
         /// </summary>
-        internal static string ViewsCreator_DescriptionShort {
+        internal static string ViewSetCreator_DescriptionShort {
             get {
-                return ResourceManager.GetString("ViewsCreator_DescriptionShort", resourceCulture);
+                return ResourceManager.GetString("ViewSetCreator_DescriptionShort", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на Создать набор видов.
+        ///   Ищет локализованную строку, похожую на Создает набор видов для использования во “встроенной печати”.
         /// </summary>
-        internal static string ViewsCreator_Name {
+        internal static string ViewSetCreator_Name {
             get {
-                return ResourceManager.GetString("ViewsCreator_Name", resourceCulture);
+                return ResourceManager.GetString("ViewSetCreator_Name", resourceCulture);
             }
         }
         

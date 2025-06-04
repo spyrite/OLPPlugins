@@ -39,15 +39,16 @@ namespace OLPRibbonTab.Revit
                     App.RibbonPanelConfigs[RibbonPanelNames.Name3].PulldownButtons[32].Visible = false;
                     foreach (PushButton pb in App.RibbonPanelConfigs[RibbonPanelNames.Name3].PulldownButtons[32].GetItems())
                         pb.Visible = false;
-                    App.RibbonPanelConfigs[RibbonPanelNames.Name3].PushButtons[36].Enabled = false;
-                    App.RibbonPanelConfigs[RibbonPanelNames.Name3].PushButtons[34].Enabled = false;
-                    App.RibbonPanelConfigs[RibbonPanelNames.Name3].PushButtons[35].Enabled = false;
+                    App.RibbonPanelConfigs[RibbonPanelNames.Name3].PulldownButtons[33].Visible = false;
+                    foreach (PushButton pb in App.RibbonPanelConfigs[RibbonPanelNames.Name3].PulldownButtons[33].GetItems())
+                        pb.Visible = false;
 
                     //Импорт/Экспорт
                     App.RibbonPanelConfigs[RibbonPanelNames.Name4].PushButtons[41].Visible = false;
+                    App.RibbonPanelConfigs[RibbonPanelNames.Name4].PushButtons[42].Visible = false;
                     App.RibbonPanelConfigs[RibbonPanelNames.Name4].PushButtons[43].Visible = false;
                     App.RibbonPanelConfigs[RibbonPanelNames.Name4].PushButtons[44].Visible = false;
-                    App.RibbonPanelConfigs[RibbonPanelNames.Name4].PushButtons[42].SetLargeSize(false);
+                    
 
                     //Моделирование
                     foreach (PushButton pb in App.RibbonPanelConfigs[RibbonPanelNames.Name5].PushButtons.Values)
@@ -87,15 +88,20 @@ namespace OLPRibbonTab.Revit
                     App.RibbonPanelConfigs[RibbonPanelNames.Name3].PulldownButtons[32].Visible = true;
                     foreach (PushButton pb in App.RibbonPanelConfigs[RibbonPanelNames.Name3].PulldownButtons[32].GetItems())
                         pb.Visible = true;
+                    App.RibbonPanelConfigs[RibbonPanelNames.Name3].PulldownButtons[33].Visible = true;
+                    foreach (PushButton pb in App.RibbonPanelConfigs[RibbonPanelNames.Name3].PulldownButtons[33].GetItems())
+                        pb.Visible = true;
+
                     App.RibbonPanelConfigs[RibbonPanelNames.Name3].PushButtons[36].Enabled = true;
                     App.RibbonPanelConfigs[RibbonPanelNames.Name3].PushButtons[34].Enabled = true;
                     App.RibbonPanelConfigs[RibbonPanelNames.Name3].PushButtons[35].Enabled = true;
 
                     //Импорт/Экспорт
                     App.RibbonPanelConfigs[RibbonPanelNames.Name4].PushButtons[41].Visible = true;
+                    App.RibbonPanelConfigs[RibbonPanelNames.Name4].PushButtons[42].Visible = true;
                     App.RibbonPanelConfigs[RibbonPanelNames.Name4].PushButtons[43].Visible = true;
                     App.RibbonPanelConfigs[RibbonPanelNames.Name4].PushButtons[44].Visible = true;
-                    App.RibbonPanelConfigs[RibbonPanelNames.Name4].PushButtons[42].SetStandardSize(false);
+                    
 
                     //Моделирование
                     foreach (PushButton pb in App.RibbonPanelConfigs[RibbonPanelNames.Name5].PushButtons.Values)

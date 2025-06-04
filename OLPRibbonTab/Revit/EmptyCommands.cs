@@ -1,6 +1,7 @@
 ﻿using Autodesk.Revit.Attributes;
 using Autodesk.Revit.DB;
 using Autodesk.Revit.UI;
+using OLPRibbonTab.Resources;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -29,11 +30,13 @@ namespace OLPRibbonTab.Revit
                 switch (App.AutoparametersAutoButtonStatus)
                 {
                     case false:
+                        App.AutoparametersAutoButton.ItemText = PushButtonDatas.ParametersAutoOLPAuto_Name_On;
                         App.AutoparametersAutoButton.Image = new BitmapImage(new Uri("/OLPRibbonTab;component/Resources/Images/" + "ParametersAutoOLPAutoOn_16.ico", UriKind.RelativeOrAbsolute));
                         App.AutoparametersAutoButton.LargeImage = new BitmapImage(new Uri("/OLPRibbonTab;component/Resources/Images/" + "ParametersAutoOLPAutoOn_32.ico", UriKind.RelativeOrAbsolute));
                         App.AutoparametersAutoButtonStatus = true;
                         break;
                     case true:
+                        App.AutoparametersAutoButton.ItemText = PushButtonDatas.ParametersAutoOLPAuto_Name_Off;
                         App.AutoparametersAutoButton.Image = new BitmapImage(new Uri("/OLPRibbonTab;component/Resources/Images/" + "ParametersAutoOLPAutoOff_16.ico", UriKind.RelativeOrAbsolute));
                         App.AutoparametersAutoButton.LargeImage = new BitmapImage(new Uri("/OLPRibbonTab;component/Resources/Images/" + "ParametersAutoOLPAutoOff_32.ico", UriKind.RelativeOrAbsolute));
                         App.AutoparametersAutoButtonStatus = false;

@@ -215,8 +215,6 @@
     <None Remove="Resources\Images\UserCallback_32.ico" />
     <None Remove="Resources\Images\ViewsCopy_16.ico" />
     <None Remove="Resources\Images\ViewsCopy_32.ico" />
-    <None Remove="Resources\Images\ViewsCreator_16.ico" />
-    <None Remove="Resources\Images\ViewsCreator_32.ico" />
     <None Remove="Resources\Images\ViewsInsertSectionViewport_16.ico" />
     <None Remove="Resources\Images\ViewsInsertSectionViewport_32.ico" />
     <None Remove="Resources\Images\ViewsMultiCopier_16.ico" />
@@ -229,274 +227,292 @@
     <None Remove="Resources\Images\ViewsUtils_32.ico" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Resources\Images_OLD\CheckCollisions_16.ico">
+    <Resource Include="Resources\Images_OLD\Original\CheckCollisions_16.ico">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
-    <Resource Include="Resources\Images_OLD\CheckCollisions_32.ico">
+    <Resource Include="Resources\Images_OLD\Original\CheckCollisions_32.ico">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
-    <Resource Include="Resources\Images_OLD\CheckModel_16.ico">
+    <Resource Include="Resources\Images_OLD\Original\CheckModel_16.ico">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
-    <Resource Include="Resources\Images_OLD\CheckModel_32.ico">
+    <Resource Include="Resources\Images_OLD\Original\CheckModel_32.ico">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
-    <Resource Include="Resources\Images_OLD\CheckParameters_16.ico">
+    <Resource Include="Resources\Images_OLD\Original\CheckParameters_16.ico">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
-    <Resource Include="Resources\Images_OLD\CheckParameters_32.ico">
+    <Resource Include="Resources\Images_OLD\Original\CheckParameters_32.ico">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
-    <Resource Include="Resources\Images_OLD\ExportPrint_16.ico">
+    <Resource Include="Resources\Images_OLD\Original\ExportPrint_16.ico">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
-    <Resource Include="Resources\Images_OLD\ExportPrint_32.ico">
+    <Resource Include="Resources\Images_OLD\Original\ExportPrint_32.ico">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
-    <Resource Include="Resources\Images_OLD\ExportXLS_16.ico">
+    <Resource Include="Resources\Images_OLD\Original\ExportXLS_16.ico">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
-    <Resource Include="Resources\Images_OLD\ExportXLS_32.ico">
+    <Resource Include="Resources\Images_OLD\Original\ExportXLS_32.ico">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
-    <Resource Include="Resources\Images_OLD\FamilyUtils_16.ico">
+    <Resource Include="Resources\Images_OLD\Original\FamilyUtils_16.ico">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
-    <Resource Include="Resources\Images_OLD\FamilyUtils_32.ico">
+    <Resource Include="Resources\Images_OLD\Original\FamilyUtils_32.ico">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
-    <Resource Include="Resources\Images_OLD\ImportDWG_16.ico">
+    <Resource Include="Resources\Images_OLD\Original\ImportDWG_16.ico">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
-    <Resource Include="Resources\Images_OLD\ImportDWG_32.ico">
+    <Resource Include="Resources\Images_OLD\Original\ImportDWG_32.ico">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
-    <Resource Include="Resources\Images_OLD\ImportLinks_16.ico">
+    <Resource Include="Resources\Images_OLD\Original\ImportLinks_16.ico">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
-    <Resource Include="Resources\Images_OLD\ImportLinks_32.ico">
+    <Resource Include="Resources\Images_OLD\Original\ImportLinks_32.ico">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
-    <Resource Include="Resources\Images_OLD\LevelRenamer_16.ico">
+    <Resource Include="Resources\Images_OLD\IOS17 Outlined\ParametersAutoOLPAutoOff_16.ico">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
-    <Resource Include="Resources\Images_OLD\LevelRenamer_32.ico">
+    <Resource Include="Resources\Images_OLD\IOS17 Outlined\ParametersAutoOLPAutoOff_24.ico">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
-    <Resource Include="Resources\Images_OLD\ManageBrowseViews_16.ico">
+    <Resource Include="Resources\Images_OLD\IOS17 Outlined\ParametersAutoOLPAutoOff_32.ico">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
-    <Resource Include="Resources\Images_OLD\ManageBrowseViews_32.ico">
+    <Resource Include="Resources\Images_OLD\IOS17 Outlined\ParametersAutoOLPAutoOn_16.ico">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
-    <Resource Include="Resources\Images_OLD\ManageFamilies_16.ico">
+    <Resource Include="Resources\Images_OLD\IOS17 Outlined\ParametersAutoOLPAutoOn_24.ico">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
-    <Resource Include="Resources\Images_OLD\ManageFamilies_32.ico">
+    <Resource Include="Resources\Images_OLD\IOS17 Outlined\ParametersAutoOLPAutoOn_32.ico">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
-    <Resource Include="Resources\Images_OLD\ManageMaterials_16.ico">
+    <Resource Include="Resources\Images_OLD\Original\LevelRenamer_16.ico">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
-    <Resource Include="Resources\Images_OLD\ManageMaterials_32.ico">
+    <Resource Include="Resources\Images_OLD\Original\LevelRenamer_32.ico">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
-    <Resource Include="Resources\Images_OLD\ManageTask1_16.ico">
+    <Resource Include="Resources\Images_OLD\Original\ManageBrowseViews_16.ico">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
-    <Resource Include="Resources\Images_OLD\ManageTask1_32.ico">
+    <Resource Include="Resources\Images_OLD\Original\ManageBrowseViews_32.ico">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
-    <Resource Include="Resources\Images_OLD\ManageTask2_16.ico">
+    <Resource Include="Resources\Images_OLD\Original\ManageFamilies_16.ico">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
-    <Resource Include="Resources\Images_OLD\ManageTask2_32.ico">
+    <Resource Include="Resources\Images_OLD\Original\ManageFamilies_32.ico">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
-    <Resource Include="Resources\Images_OLD\ModellingAutoJoin_16.ico">
+    <Resource Include="Resources\Images_OLD\Original\ManageMaterials_16.ico">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
-    <Resource Include="Resources\Images_OLD\ModellingAutoJoin_32.ico">
+    <Resource Include="Resources\Images_OLD\Original\ManageMaterials_32.ico">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
-    <Resource Include="Resources\Images_OLD\ModellingConnectWallBeam_16.ico">
+    <Resource Include="Resources\Images_OLD\Original\ManageTask1_16.ico">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
-    <Resource Include="Resources\Images_OLD\ModellingConnectWallBeam_32.ico">
+    <Resource Include="Resources\Images_OLD\Original\ManageTask1_32.ico">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
-    <Resource Include="Resources\Images_OLD\ModellingCutByVoids_16.ico">
+    <Resource Include="Resources\Images_OLD\Original\ManageTask2_16.ico">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
-    <Resource Include="Resources\Images_OLD\ModellingCutByVoids_32.ico">
+    <Resource Include="Resources\Images_OLD\Original\ManageTask2_32.ico">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
-    <Resource Include="Resources\Images_OLD\ModellingMasonaryOpenings_16.ico">
+    <Resource Include="Resources\Images_OLD\Original\ModellingAutoJoin_16.ico">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
-    <Resource Include="Resources\Images_OLD\ModellingMasonaryOpenings_32.ico">
+    <Resource Include="Resources\Images_OLD\Original\ModellingAutoJoin_32.ico">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
-    <Resource Include="Resources\Images_OLD\ParametersAutoOLPAutoOff_16.ico">
+    <Resource Include="Resources\Images_OLD\Original\ModellingConnectWallBeam_16.ico">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
-    <Resource Include="Resources\Images_OLD\ParametersAutoOLPAutoOff_24.ico">
+    <Resource Include="Resources\Images_OLD\Original\ModellingConnectWallBeam_32.ico">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
-    <Resource Include="Resources\Images_OLD\ParametersAutoOLPAutoOff_32.ico">
+    <Resource Include="Resources\Images_OLD\Original\ModellingCutByVoids_16.ico">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
-    <Resource Include="Resources\Images_OLD\ParametersAutoOLPAutoOn_16.ico">
+    <Resource Include="Resources\Images_OLD\Original\ModellingCutByVoids_32.ico">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
-    <Resource Include="Resources\Images_OLD\ParametersAutoOLPAutoOn_24.ico">
+    <Resource Include="Resources\Images_OLD\Original\ModellingMasonaryOpenings_16.ico">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
-    <Resource Include="Resources\Images_OLD\ParametersAutoOLPAutoOn_32.ico">
+    <Resource Include="Resources\Images_OLD\Original\ModellingMasonaryOpenings_32.ico">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
-    <Resource Include="Resources\Images_OLD\ParametersAutoOLPManual_16.ico">
+    <Resource Include="Resources\Images_OLD\Original\ParametersAutoOLPAutoOff_16.ico">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
-    <Resource Include="Resources\Images_OLD\ParametersAutoOLPManual_24.ico">
+    <Resource Include="Resources\Images_OLD\Original\ParametersAutoOLPAutoOff_24.ico">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
-    <Resource Include="Resources\Images_OLD\ParametersAutoOLPManual_32.ico">
+    <Resource Include="Resources\Images_OLD\Original\ParametersAutoOLPAutoOff_32.ico">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
-    <Resource Include="Resources\Images_OLD\ParametersAuto_16.ico">
+    <Resource Include="Resources\Images_OLD\Original\ParametersAutoOLPAutoOn_16.ico">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
-    <Resource Include="Resources\Images_OLD\ParametersAuto_32.ico">
+    <Resource Include="Resources\Images_OLD\Original\ParametersAutoOLPAutoOn_24.ico">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
-    <Resource Include="Resources\Images_OLD\ParametersCopier_16.ico">
+    <Resource Include="Resources\Images_OLD\Original\ParametersAutoOLPAutoOn_32.ico">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
-    <Resource Include="Resources\Images_OLD\ParametersCopier_32.ico">
+    <Resource Include="Resources\Images_OLD\Original\ParametersAutoOLPManual_16.ico">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
-    <Resource Include="Resources\Images_OLD\ParametersCustomer_16.ico">
+    <Resource Include="Resources\Images_OLD\Original\ParametersAutoOLPManual_24.ico">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
-    <Resource Include="Resources\Images_OLD\ParametersCustomer_24.ico">
+    <Resource Include="Resources\Images_OLD\Original\ParametersAutoOLPManual_32.ico">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
-    <Resource Include="Resources\Images_OLD\ParametersCustomer_32.ico">
+    <Resource Include="Resources\Images_OLD\Original\ParametersAuto_16.ico">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
-    <Resource Include="Resources\Images_OLD\ParametersElevation_16.ico">
+    <Resource Include="Resources\Images_OLD\Original\ParametersAuto_32.ico">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
-    <Resource Include="Resources\Images_OLD\ParametersElevation_32.ico">
+    <Resource Include="Resources\Images_OLD\Original\ParametersCopier_16.ico">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
-    <Resource Include="Resources\Images_OLD\ParametersFamily_16.ico">
+    <Resource Include="Resources\Images_OLD\Original\ParametersCopier_32.ico">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
-    <Resource Include="Resources\Images_OLD\ParametersFamily_32.ico">
+    <Resource Include="Resources\Images_OLD\Original\ParametersCustomer_16.ico">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
-    <Resource Include="Resources\Images_OLD\ParametersFill_16.ico">
+    <Resource Include="Resources\Images_OLD\Original\ParametersCustomer_24.ico">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
-    <Resource Include="Resources\Images_OLD\ParametersFill_32.ico">
+    <Resource Include="Resources\Images_OLD\Original\ParametersCustomer_32.ico">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
-    <Resource Include="Resources\Images_OLD\ParametersNSection_16.ico">
+    <Resource Include="Resources\Images_OLD\Original\ParametersElevation_16.ico">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
-    <Resource Include="Resources\Images_OLD\ParametersNSection_32.ico">
+    <Resource Include="Resources\Images_OLD\Original\ParametersElevation_32.ico">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
-    <Resource Include="Resources\Images_OLD\SchedulesColumnWidth_16.ico">
+    <Resource Include="Resources\Images_OLD\Original\ParametersFamily_16.ico">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
-    <Resource Include="Resources\Images_OLD\SchedulesColumnWidth_32.ico">
+    <Resource Include="Resources\Images_OLD\Original\ParametersFamily_32.ico">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
-    <Resource Include="Resources\Images_OLD\SchedulesFilterReplacer_16.ico">
+    <Resource Include="Resources\Images_OLD\Original\ParametersFill_16.ico">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
-    <Resource Include="Resources\Images_OLD\SchedulesFilterReplacer_32.ico">
+    <Resource Include="Resources\Images_OLD\Original\ParametersFill_32.ico">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
-    <Resource Include="Resources\Images_OLD\SchedulesUtils_16.ico">
+    <Resource Include="Resources\Images_OLD\Original\ParametersNSection_16.ico">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
-    <Resource Include="Resources\Images_OLD\SchedulesUtils_32.ico">
+    <Resource Include="Resources\Images_OLD\Original\ParametersNSection_32.ico">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
-    <Resource Include="Resources\Images_OLD\SheetsAddRevision_16.ico">
+    <Resource Include="Resources\Images_OLD\Original\SchedulesColumnWidth_16.ico">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
-    <Resource Include="Resources\Images_OLD\SheetsAddRevision_32.ico">
+    <Resource Include="Resources\Images_OLD\Original\SchedulesColumnWidth_32.ico">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
-    <Resource Include="Resources\Images_OLD\SheetsCopier_16.ico">
+    <Resource Include="Resources\Images_OLD\Original\SchedulesFilterReplacer_16.ico">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
-    <Resource Include="Resources\Images_OLD\SheetsCopier_32.ico">
+    <Resource Include="Resources\Images_OLD\Original\SchedulesFilterReplacer_32.ico">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
-    <Resource Include="Resources\Images_OLD\SheetsEnumerator_16.ico">
+    <Resource Include="Resources\Images_OLD\Original\SchedulesUtils_16.ico">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
-    <Resource Include="Resources\Images_OLD\SheetsEnumerator_32.ico">
+    <Resource Include="Resources\Images_OLD\Original\SchedulesUtils_32.ico">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
-    <Resource Include="Resources\Images_OLD\SheetsUtils_16.ico">
+    <Resource Include="Resources\Images_OLD\Original\SheetsAddRevision_16.ico">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
-    <Resource Include="Resources\Images_OLD\SheetsUtils_32.ico">
+    <Resource Include="Resources\Images_OLD\Original\SheetsAddRevision_32.ico">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
-    <Resource Include="Resources\Images_OLD\UserCallback_16.ico">
+    <Resource Include="Resources\Images_OLD\Original\SheetsCopier_16.ico">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
-    <Resource Include="Resources\Images_OLD\UserCallback_32.ico">
+    <Resource Include="Resources\Images_OLD\Original\SheetsCopier_32.ico">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
-    <Resource Include="Resources\Images_OLD\ViewsCopy_16.ico">
+    <Resource Include="Resources\Images_OLD\Original\SheetsEnumerator_16.ico">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
-    <Resource Include="Resources\Images_OLD\ViewsCopy_32.ico">
+    <Resource Include="Resources\Images_OLD\Original\SheetsEnumerator_32.ico">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
-    <Resource Include="Resources\Images_OLD\ViewsCreator_16.ico">
+    <Resource Include="Resources\Images_OLD\Original\SheetsUtils_16.ico">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
-    <Resource Include="Resources\Images_OLD\ViewsCreator_32.ico">
+    <Resource Include="Resources\Images_OLD\Original\SheetsUtils_32.ico">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
-    <Resource Include="Resources\Images_OLD\ViewsInsertSectionViewport_16.ico">
+    <Resource Include="Resources\Images_OLD\Original\UserCallback_16.ico">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
-    <Resource Include="Resources\Images_OLD\ViewsInsertSectionViewport_32.ico">
+    <Resource Include="Resources\Images_OLD\Original\UserCallback_32.ico">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
-    <Resource Include="Resources\Images_OLD\ViewsMultiCopier_16.ico">
+    <Resource Include="Resources\Images_OLD\Original\ViewsCopy_16.ico">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
-    <Resource Include="Resources\Images_OLD\ViewsMultiCopier_32.ico">
+    <Resource Include="Resources\Images_OLD\Original\ViewsCopy_32.ico">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
-    <Resource Include="Resources\Images_OLD\ViewsPaste_16.ico">
+    <Resource Include="Resources\Images_OLD\Original\ViewsCreator_16.ico">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
-    <Resource Include="Resources\Images_OLD\ViewsPaste_32.ico">
+    <Resource Include="Resources\Images_OLD\Original\ViewsCreator_32.ico">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
-    <Resource Include="Resources\Images_OLD\ViewsRenamer_16.ico">
+    <Resource Include="Resources\Images_OLD\Original\ViewsInsertSectionViewport_16.ico">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
-    <Resource Include="Resources\Images_OLD\ViewsRenamer_32.ico">
+    <Resource Include="Resources\Images_OLD\Original\ViewsInsertSectionViewport_32.ico">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
-    <Resource Include="Resources\Images_OLD\ViewsUtils_16.ico">
+    <Resource Include="Resources\Images_OLD\Original\ViewsMultiCopier_16.ico">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
-    <Resource Include="Resources\Images_OLD\ViewsUtils_32.ico">
+    <Resource Include="Resources\Images_OLD\Original\ViewsMultiCopier_32.ico">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\Images_OLD\Original\ViewsPaste_16.ico">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\Images_OLD\Original\ViewsPaste_32.ico">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\Images_OLD\Original\ViewsRenamer_16.ico">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\Images_OLD\Original\ViewsRenamer_32.ico">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\Images_OLD\Original\ViewsUtils_16.ico">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\Images_OLD\Original\ViewsUtils_32.ico">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
     <Resource Include="Resources\Images\LevelRenamer_16.ico">
@@ -515,10 +531,6 @@
 
   <ItemGroup>
     <PackageReference Include="Revit_All_Main_Versions_API_x64" Version="$(RevitVersion).*" IncludeAssets="build; compile" PrivateAssets="All" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Resources\Images_NonUsed\" />
   </ItemGroup>
 
   <ItemGroup>
@@ -744,10 +756,10 @@
     <Resource Include="Resources\Images\ViewsCopy_32.ico">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
-    <Resource Include="Resources\Images\ViewsCreator_16.ico">
+    <Resource Include="Resources\Images\ViewSetCreator_16.ico">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
-    <Resource Include="Resources\Images\ViewsCreator_32.ico">
+    <Resource Include="Resources\Images\ViewSetCreator_32.ico">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
     <Resource Include="Resources\Images\ViewsInsertSectionViewport_16.ico">

@@ -117,9 +117,9 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="ParametersAutoOLPAuto_Name" xml:space="preserve">
+  <data name="ParametersAutoOLPAuto_Name_On" xml:space="preserve">
     <value>Автопараметры
-(фоновый режим)</value>
+(фон. вкл.)</value>
   </data>
   <data name="ParametersAutoOLPManual_Name" xml:space="preserve">
     <value>Авто. ручн.</value>
@@ -137,7 +137,7 @@
     <value>Параметр "Номер секции"</value>
   </data>
   <data name="ParametersFamily_Name" xml:space="preserve">
-    <value>Обработка типов,
+    <value>Менеджер
 параметров</value>
   </data>
   <data name="ManageMaterials_Name" xml:space="preserve">
@@ -205,8 +205,8 @@ Manager</value>
   <data name="SheetsEnumerator_Name" xml:space="preserve">
     <value>Нумератор листов</value>
   </data>
-  <data name="ViewsCreator_Name" xml:space="preserve">
-    <value>Создать набор видов</value>
+  <data name="ViewSetCreator_Name" xml:space="preserve">
+    <value>Создает набор видов для использования во “встроенной печати”</value>
   </data>
   <data name="ViewsRenamer_Name" xml:space="preserve">
     <value>Переименовать виды</value>
@@ -246,8 +246,8 @@ Manager</value>
     <value />
   </data>
   <data name="LevelRenamer_Name" xml:space="preserve">
-    <value>Переименовать
-уровни</value>
+    <value>Имена
+уровней</value>
   </data>
   <data name="ExportPrint_DescriptionLong" xml:space="preserve">
     <value />
@@ -414,10 +414,10 @@ Manager</value>
   <data name="ViewsCopy_DescriptionLong" xml:space="preserve">
     <value />
   </data>
-  <data name="ViewsCreator_DescriptionShort" xml:space="preserve">
+  <data name="ViewSetCreator_DescriptionShort" xml:space="preserve">
     <value>Создает набор выбранных видов или листов в диспетчере проекта для последующей групповой публикации</value>
   </data>
-  <data name="ViewsCreator_DescriptionLong" xml:space="preserve">
+  <data name="ViewSetCreator_DescriptionLong" xml:space="preserve">
     <value />
   </data>
   <data name="ViewsInsertSectionViewport_DescriptionShort" xml:space="preserve">
@@ -449,5 +449,9 @@ Manager</value>
   </data>
   <data name="ImportLinks_DescriptionLong" xml:space="preserve">
     <value />
+  </data>
+  <data name="ParametersAutoOLPAuto_Name_Off" xml:space="preserve">
+    <value>Автопараметры
+(фон. выкл.)</value>
   </data>
 </root>

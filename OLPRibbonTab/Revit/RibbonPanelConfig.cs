@@ -129,7 +129,7 @@ namespace OLPRibbonTab.Revit
 
             _pushButtonDatas = new Dictionary<int, PushButtonData>()
             {
-                { 11, new PushButtonData("PushButton_11", PushButtonDatas.ParametersAutoOLPAuto_Name, _thisAssemblyPath, typeof(TurnOnOff11).FullName)
+                { 11, new PushButtonData("PushButton_11", PushButtonDatas.ParametersAutoOLPAuto_Name_On, _thisAssemblyPath, typeof(TurnOnOff11).FullName)
                     {
                         Image = new BitmapImage(new Uri("/OLPRibbonTab;component/Resources/Images/" + "ParametersAutoOLPAutoOff_16.ico", UriKind.RelativeOrAbsolute)),
                         LargeImage = new BitmapImage(new Uri("/OLPRibbonTab;component/Resources/Images/" + "ParametersAutoOLPAutoOff_32.ico", UriKind.RelativeOrAbsolute)),
@@ -339,12 +339,12 @@ namespace OLPRibbonTab.Revit
                         LongDescription = PushButtonDatas.ViewsRenamer_DescriptionLong,
                     }
                 },
-                { 36, new PushButtonData("PushButton_36", PushButtonDatas.ViewsCreator_Name, _thisAssemblyPath, typeof(EmptyCommands).FullName)
+                { 36, new PushButtonData("PushButton_36", PushButtonDatas.ViewSetCreator_Name, _thisAssemblyPath, typeof(EmptyCommands).FullName)
                     {
-                        Image = new BitmapImage(new Uri("/OLPRibbonTab;component/Resources/Images/" + "ViewsCreator_16.ico", UriKind.RelativeOrAbsolute)),
-                        LargeImage = new BitmapImage(new Uri("/OLPRibbonTab;component/Resources/Images/" + "ViewsCreator_32.ico", UriKind.RelativeOrAbsolute)),
-                        ToolTip = PushButtonDatas.ViewsCreator_DescriptionShort,
-                        LongDescription = PushButtonDatas.ViewsCreator_DescriptionLong,
+                        Image = new BitmapImage(new Uri("/OLPRibbonTab;component/Resources/Images/" + "ViewSetCreator_16.ico", UriKind.RelativeOrAbsolute)),
+                        LargeImage = new BitmapImage(new Uri("/OLPRibbonTab;component/Resources/Images/" + "ViewSetCreator_32.ico", UriKind.RelativeOrAbsolute)),
+                        ToolTip = PushButtonDatas.ViewSetCreator_DescriptionShort,
+                        LongDescription = PushButtonDatas.ViewSetCreator_DescriptionLong,
                     }
                 },
                 { 37, new PushButtonData("PushButton_37", PushButtonDatas.SheetsCopier_Name, _thisAssemblyPath, typeof(EmptyCommands).FullName)
