@@ -206,7 +206,7 @@ Manager</value>
     <value>Нумератор листов</value>
   </data>
   <data name="ViewSetCreator_Name" xml:space="preserve">
-    <value>Создает набор видов для использования во “встроенной печати”</value>
+    <value>Создать набор видов</value>
   </data>
   <data name="ViewsRenamer_Name" xml:space="preserve">
     <value>Переименовать виды</value>

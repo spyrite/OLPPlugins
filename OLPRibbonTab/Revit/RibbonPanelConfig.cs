@@ -8,6 +8,7 @@ using OLPRibbonTab.Customs;
 
 using RibbonItem = Autodesk.Revit.UI.RibbonItem;
 using RibbonPanel = Autodesk.Revit.UI.RibbonPanel;
+using System.Linq;
 
 namespace OLPRibbonTab.Revit
 {
@@ -18,12 +19,16 @@ namespace OLPRibbonTab.Revit
         private static Dictionary<int, SplitButtonData> _splitButtonDatas;
         private static Dictionary<int, PulldownButtonData> _pulldownButtonDatas;
         private static Dictionary<int, PushButtonData> _pushButtonDatas;
+        private static Dictionary<int, RadioButtonGroupData> _radioButtonGroupDatas;
+        private static Dictionary<int, ToggleButtonData> _toggleButtonDatas;
         private static List<RibbonItem> _ribbonItems;
 
         public RibbonPanel RibbonPanel;
         public Dictionary<int, SplitButton> SplitButtons;
         public Dictionary<int, PulldownButton> PulldownButtons;
         public Dictionary<int, PushButton> PushButtons;
+        public Dictionary<int, RadioButtonGroup> RadioButtonGroups;
+        public Dictionary<int, ToggleButton> ToggleButtons;
 
         internal RibbonPanelConfig(UIControlledApplication app, string tabName, string panelName)
         {
@@ -31,6 +36,8 @@ namespace OLPRibbonTab.Revit
             PushButtons = [];
             SplitButtons = [];
             PulldownButtons = [];
+            RadioButtonGroups = [];
+            ToggleButtons = [];
         }
 
         //BIM
@@ -39,6 +46,50 @@ namespace OLPRibbonTab.Revit
 
             RibbonPanelConfig rpc = new(app, tabName, RibbonPanelNames.Name0);
 
+            _radioButtonGroupDatas = new Dictionary<int, RadioButtonGroupData>
+            {
+                { 1, new RadioButtonGroupData("RadioButtonGroup_1")
+                    {
+                        ToolTip = "Переключатель конфигурации вкладки по отделам"
+                    }
+                }
+            };
+
+            _toggleButtonDatas = new Dictionary<int, ToggleButtonData>
+            {
+                { 0, new ToggleButtonData("ToggleButton_0", ToggleButtonDatas.WorkMode_All_Name, _thisAssemblyPath, typeof(WorkModeSwitch).FullName)
+                    {
+                        Image = new BitmapImage(new Uri("/OLPRibbonTab;component/Resources/Images/" + "WorkMode_All_32.ico", UriKind.RelativeOrAbsolute)),
+                        LargeImage = new BitmapImage(new Uri("/OLPRibbonTab;component/Resources/Images/" + "WorkMode_All_32.ico", UriKind.RelativeOrAbsolute)),
+                        ToolTip = ToggleButtonDatas.WorkMode_All_DescriptionShort,
+                        LongDescription = ToggleButtonDatas.WorkMode_All_DescriptionLong,
+                    }
+                },
+                { 1, new ToggleButtonData("ToggleButton_1", ToggleButtonDatas.WorkMode_OAP_Name, _thisAssemblyPath, typeof(WorkModeSwitch).FullName)
+                    {
+                        Image = new BitmapImage(new Uri("/OLPRibbonTab;component/Resources/Images/" + "WorkMode_OAP_32.ico", UriKind.RelativeOrAbsolute)),
+                        LargeImage = new BitmapImage(new Uri("/OLPRibbonTab;component/Resources/Images/" + "WorkMode_OAP_32.ico", UriKind.RelativeOrAbsolute)),
+                        ToolTip = ToggleButtonDatas.WorkMode_OAP_DescriptionShort,
+                        LongDescription = ToggleButtonDatas.WorkMode_OAP_DescriptionLong,
+                    }
+                },
+                { 2, new ToggleButtonData("ToggleButton_2", ToggleButtonDatas.WorkMode_OSK_Name, _thisAssemblyPath, typeof(WorkModeSwitch).FullName)
+                    {
+                        Image = new BitmapImage(new Uri("/OLPRibbonTab;component/Resources/Images/" + "WorkMode_OSK_32.ico", UriKind.RelativeOrAbsolute)),
+                        LargeImage = new BitmapImage(new Uri("/OLPRibbonTab;component/Resources/Images/" + "WorkMode_OSK_32.ico", UriKind.RelativeOrAbsolute)),
+                        ToolTip = ToggleButtonDatas.WorkMode_OSK_DescriptionShort,
+                        LongDescription = ToggleButtonDatas.WorkMode_OSK_DescriptionLong,
+                    }
+                },
+                { 3, new ToggleButtonData("ToggleButton_3", ToggleButtonDatas.WorkMode_OIS_Name, _thisAssemblyPath, typeof(WorkModeSwitch).FullName)
+                    {
+                        Image = new BitmapImage(new Uri("/OLPRibbonTab;component/Resources/Images/" + "WorkMode_OIS_32.ico", UriKind.RelativeOrAbsolute)),
+                        LargeImage = new BitmapImage(new Uri("/OLPRibbonTab;component/Resources/Images/" + "WorkMode_OIS_32.ico", UriKind.RelativeOrAbsolute)),
+                        ToolTip = ToggleButtonDatas.WorkMode_OIS_DescriptionShort,
+                        LongDescription = ToggleButtonDatas.WorkMode_OIS_DescriptionLong,
+                    }
+                },
+            };
 
             _pulldownButtonDatas = new Dictionary<int, PulldownButtonData>
             {
@@ -101,6 +152,19 @@ namespace OLPRibbonTab.Revit
             rpc.PushButtons[2] = rpc.RibbonPanel.AddItem(_pushButtonDatas[2]) as PushButton;
             rpc.PushButtons[3] = rpc.RibbonPanel.AddItem(_pushButtonDatas[3]) as PushButton;
             rpc.PushButtons[4] = rpc.RibbonPanel.AddItem(_pushButtonDatas[4]) as PushButton;
+
+            rpc.RibbonPanel.AddSlideOut();
+
+            rpc.RadioButtonGroups[1] = rpc.RibbonPanel.AddItem(_radioButtonGroupDatas[1]) as RadioButtonGroup;
+            rpc.RadioButtonGroups[1].AddItems([.. _toggleButtonDatas.Values]);
+            int i = 0;
+            foreach (ToggleButton toggleButton in rpc.RadioButtonGroups[1].GetItems())
+            {
+                //toggleButton.SetListSize();
+                rpc.ToggleButtons[i] = toggleButton;
+                i++;
+            }
+            rpc.RadioButtonGroups[1].Current = rpc.ToggleButtons[(int)App.WorkMode];
 
             return rpc;
         }

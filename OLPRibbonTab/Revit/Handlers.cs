@@ -42,13 +42,15 @@ namespace OLPRibbonTab.Revit
                     App.RibbonPanelConfigs[RibbonPanelNames.Name3].PulldownButtons[33].Visible = false;
                     foreach (PushButton pb in App.RibbonPanelConfigs[RibbonPanelNames.Name3].PulldownButtons[33].GetItems())
                         pb.Visible = false;
+                    App.RibbonPanelConfigs[RibbonPanelNames.Name3].RibbonPanel.Visible = false;
 
                     //Импорт/Экспорт
                     App.RibbonPanelConfigs[RibbonPanelNames.Name4].PushButtons[41].Visible = false;
                     App.RibbonPanelConfigs[RibbonPanelNames.Name4].PushButtons[42].Visible = false;
                     App.RibbonPanelConfigs[RibbonPanelNames.Name4].PushButtons[43].Visible = false;
                     App.RibbonPanelConfigs[RibbonPanelNames.Name4].PushButtons[44].Visible = false;
-                    
+                    App.RibbonPanelConfigs[RibbonPanelNames.Name4].RibbonPanel.Visible = false;
+
 
                     //Моделирование
                     foreach (PushButton pb in App.RibbonPanelConfigs[RibbonPanelNames.Name5].PushButtons.Values)
@@ -82,6 +84,7 @@ namespace OLPRibbonTab.Revit
                     App.RibbonPanelConfigs[RibbonPanelNames.Name2].PushButtons[24].Visible = true;
 
                     //Виды/Листы
+                    App.RibbonPanelConfigs[RibbonPanelNames.Name3].RibbonPanel.Visible = true;
                     App.RibbonPanelConfigs[RibbonPanelNames.Name3].PulldownButtons[31].Visible = true;
                     foreach (PushButton pb in App.RibbonPanelConfigs[RibbonPanelNames.Name3].PulldownButtons[31].GetItems())
                         pb.Visible = true;
@@ -92,26 +95,39 @@ namespace OLPRibbonTab.Revit
                     foreach (PushButton pb in App.RibbonPanelConfigs[RibbonPanelNames.Name3].PulldownButtons[33].GetItems())
                         pb.Visible = true;
 
-                    App.RibbonPanelConfigs[RibbonPanelNames.Name3].PushButtons[36].Enabled = true;
-                    App.RibbonPanelConfigs[RibbonPanelNames.Name3].PushButtons[34].Enabled = true;
-                    App.RibbonPanelConfigs[RibbonPanelNames.Name3].PushButtons[35].Enabled = true;
-
                     //Импорт/Экспорт
+                    App.RibbonPanelConfigs[RibbonPanelNames.Name4].RibbonPanel.Visible = true;
                     App.RibbonPanelConfigs[RibbonPanelNames.Name4].PushButtons[41].Visible = true;
                     App.RibbonPanelConfigs[RibbonPanelNames.Name4].PushButtons[42].Visible = true;
                     App.RibbonPanelConfigs[RibbonPanelNames.Name4].PushButtons[43].Visible = true;
                     App.RibbonPanelConfigs[RibbonPanelNames.Name4].PushButtons[44].Visible = true;
-                    
+
 
                     //Моделирование
+                    App.RibbonPanelConfigs[RibbonPanelNames.Name5].RibbonPanel.Visible = true;
                     foreach (PushButton pb in App.RibbonPanelConfigs[RibbonPanelNames.Name5].PushButtons.Values)
                         pb.Visible = true;
-                    App.RibbonPanelConfigs[RibbonPanelNames.Name5].RibbonPanel.Visible = true;
+                    
 
                     //Анализ/Проверка
                     App.RibbonPanelConfigs[RibbonPanelNames.Name6].RibbonPanel.Visible = true;
                     foreach (PushButton pb in App.RibbonPanelConfigs[RibbonPanelNames.Name6].PushButtons.Values)
                         pb.Visible = true;
+                    break;
+            }
+        }
+
+        internal static void SetRibbonTabDisciplineConfiguration(WorkMode workMode)
+        {
+            switch (workMode)
+            {
+                case WorkMode.OIS:
+                    App.RibbonPanelConfigs[RibbonPanelNames.Name5].RibbonPanel.Visible = false;
+                    App.RibbonPanelConfigs[RibbonPanelNames.Name0].PushButtons[4].Visible = false;
+                    break;
+                default:
+                    App.RibbonPanelConfigs[RibbonPanelNames.Name5].RibbonPanel.Visible = true;
+                    App.RibbonPanelConfigs[RibbonPanelNames.Name0].PushButtons[4].Visible = true;
                     break;
             }
         }

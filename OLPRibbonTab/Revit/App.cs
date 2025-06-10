@@ -10,6 +10,14 @@ using OLPRibbonTab.Resources;
 
 namespace OLPRibbonTab.Revit
 {
+    public enum WorkMode
+    {
+        All,
+        OAP,
+        OSK,
+        OIS
+    }
+
     public class App : IExternalApplication
     {
         private const string _tabName = "OLPRibbonTab";
@@ -19,6 +27,7 @@ namespace OLPRibbonTab.Revit
         internal static Dictionary<string, RibbonPanelConfig> RibbonPanelConfigs;
         internal static PushButton AutoparametersAutoButton;
         internal static bool AutoparametersAutoButtonStatus;
+        internal static WorkMode WorkMode;
 
         public Result OnStartup(UIControlledApplication application)
         {
@@ -35,6 +44,9 @@ namespace OLPRibbonTab.Revit
 
             AutoparametersAutoButton = RibbonPanelConfigs[RibbonPanelNames.Name1].PushButtons[11];
             AutoparametersAutoButtonStatus = false;
+
+            WorkMode = (WorkMode)Properties.App.Default.WorkMode;
+            Handlers.SetRibbonTabDisciplineConfiguration(WorkMode);
 
             SubscribingToEvents();
 

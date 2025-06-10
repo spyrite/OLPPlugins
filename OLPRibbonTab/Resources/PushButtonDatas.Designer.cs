@@ -935,7 +935,7 @@ namespace OLPRibbonTab.Resources {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на Создает набор видов для использования во “встроенной печати”.
+        ///   Ищет локализованную строку, похожую на Создать набор видов.
         /// </summary>
         internal static string ViewSetCreator_Name {
             get {

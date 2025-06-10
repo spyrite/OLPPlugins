@@ -31,5 +31,18 @@ namespace OLPRibbonTab.Customs
             internalRibbonItem.ShowText = !disableText;
             return ribbonItem;
         }
+
+        public static Autodesk.Revit.UI.RibbonItem SetListSize(this Autodesk.Revit.UI.RibbonItem ribbonItem)
+        {
+            Autodesk.Windows.RibbonItem internalRibbonItem = (Autodesk.Windows.RibbonItem)((object)ribbonItem).GetType().GetMethod("getRibbonItem", BindingFlags.Instance | BindingFlags.NonPublic).Invoke((object)ribbonItem, (object[])null);
+            if (internalRibbonItem is Autodesk.Windows.RibbonToggleButton ribbonToggleButton)
+            {
+                ribbonToggleButton.Orientation = Orientation.Vertical;
+                ribbonToggleButton.Size = RibbonItemSize.Standard;
+                ribbonToggleButton.ShowText = true;
+            }
+
+            return ribbonItem;
+        }
     }
 }

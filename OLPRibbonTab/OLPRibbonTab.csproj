@@ -225,8 +225,24 @@
     <None Remove="Resources\Images\ViewsRenamer_32.ico" />
     <None Remove="Resources\Images\ViewsUtils_16.ico" />
     <None Remove="Resources\Images\ViewsUtils_32.ico" />
+    <None Remove="Resources\Images\WorkMode_All_32.ico" />
+    <None Remove="Resources\Images\WorkMode_OAP_32.ico" />
+    <None Remove="Resources\Images\WorkMode_OIS_32.ico" />
+    <None Remove="Resources\Images\WorkMode_OSK_32.ico" />
   </ItemGroup>
   <ItemGroup>
+    <Resource Include="Resources\Images\WorkMode_All_32.ico">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\Images\WorkMode_OAP_32.ico">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\Images\WorkMode_OIS_32.ico">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\Images\WorkMode_OSK_32.ico">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
     <Resource Include="Resources\Images_OLD\Original\CheckCollisions_16.ico">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
@@ -795,6 +811,11 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Compile Update="Properties\App.Designer.cs">
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>App.settings</DependentUpon>
+    </Compile>
     <Compile Update="Resources\PulldownButtonDatas.Designer.cs">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
@@ -815,6 +836,11 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>SplitButtonDatas.resx</DependentUpon>
     </Compile>
+    <Compile Update="Resources\ToggleButtonDatas.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>ToggleButtonDatas.resx</DependentUpon>
+    </Compile>
   </ItemGroup>
 
   <ItemGroup>
@@ -834,6 +860,17 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>SplitButtonDatas.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <EmbeddedResource Update="Resources\ToggleButtonDatas.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ToggleButtonDatas.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Properties\App.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>App.Designer.cs</LastGenOutput>
+    </None>
   </ItemGroup>
 
 </Project>

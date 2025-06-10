@@ -48,4 +48,21 @@ namespace OLPRibbonTab.Revit
         }
     }
 
+    [Transaction(TransactionMode.Manual)]
+    internal class WorkModeSwitch : IExternalCommand
+    {
+        public Result Execute(ExternalCommandData commandData, ref string message, ElementSet elements)
+        {
+            RadioButtonGroup rbg = App.RibbonPanelConfigs[RibbonPanelNames.Name0].RadioButtonGroups[1];
+            Properties.App.Default.WorkMode = rbg.GetItems().IndexOf(rbg.Current);
+            Properties.App.Default.Save();
+
+            App.WorkMode = (WorkMode)Properties.App.Default.WorkMode;
+            Handlers.SetRibbonTabDisciplineConfiguration(App.WorkMode);
+
+            return Result.Succeeded;
+
+        }
+    }
+
 }
